@@ -119,7 +119,7 @@
                     "items": {"$ref":"#/definitions/scalarVal"}
                 }
             ],
-            "additionalItems": false
+            "additionalItems": {"type": "boolean", "enum": [true], "description": "Whether this is a cloud variable"}
         },
         "broadcast_message": {
             "type": "string",
